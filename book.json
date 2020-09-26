@@ -10,9 +10,15 @@
         "github-buttons@2.1.0",
         "edit-link",
         "github",
-        "downloadpdf"
+        "downloadpdf",
+        "books"
     ],
     "pluginsConfig": {
+        "books": {
+    "prism_themes": [
+      "prismjs/themes/prism-okaidia.css"
+    ]
+  },
         "downloadpdf": {
       "base": "https://www.gitbook.com/download/pdf/zhaoda/webpack-handbook",
       "label": "Download PDF",
