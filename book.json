@@ -8,9 +8,9 @@
     "plugins": [
         "donate",
         "github-buttons@2.1.0",
-        "edit-link"
+        "edit-link",
+        "github"
     ],
-
     "pluginsConfig": {
         "donate": {
             "wechat": "http://jartto.wang/images/wechatpay.jpg",
@@ -26,6 +26,9 @@
                 "star"
             ],
             "size": "small"
+        },
+        "github": {
+            "url": "https://github.com/your/repo"
         },
         "edit-link": {
             "base": "https://github.com/jartto/gitbook/master",
