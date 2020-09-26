@@ -9,9 +9,15 @@
         "donate",
         "github-buttons@2.1.0",
         "edit-link",
-        "github"
+        "github",
+        "downloadpdf"
     ],
     "pluginsConfig": {
+        "downloadpdf": {
+      "base": "https://www.gitbook.com/download/pdf/zhaoda/webpack-handbook",
+      "label": "Download PDF",
+      "multilingual": false
+    },
         "donate": {
             "wechat": "http://jartto.wang/images/wechatpay.jpg",
             "alipay": "http://jartto.wang/images/alipay.jpg",
